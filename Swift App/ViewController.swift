@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var label: UILabel!
+    
+    
+    
+    
+    
+    @IBOutlet weak var text1: UITextField!
+    
+    
+    @IBOutlet weak var text2: UITextField!
     
     
     
@@ -18,24 +28,8 @@ class ViewController: UIViewController {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    @IBAction func calculate(_ sender: Any) {
+    }
     
     
 
