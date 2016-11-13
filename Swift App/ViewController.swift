@@ -23,31 +23,35 @@ class ViewController: UIViewController {
     
     
     
-    
+    // print(text1.text!)
+    // print(text2.text!)
     
     
     
     
     @IBAction func calculate(_ sender: Any) {
         
-        label.text = "Answer: \(Double(text1.text!)! + Double(text2.text!)!)"
+        let addition = false
         
-         print(text1.text!)
-         print(text2.text!)
+        if addition {
+            label.text = "Answer: \(Double(text1.text!)! + Double(text2.text!)!)"
+            
+        } else {
+                label.text = "Answer: \(Double(text1.text!)! - Double(text2.text!)!)"
+            }
     }
     
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
